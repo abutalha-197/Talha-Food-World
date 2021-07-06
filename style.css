@@ -40,3 +40,45 @@ h1 {
     background-image: url(images/Frame\ 59.jpg);
     background-repeat: no-repeat;
 }
+.recipie{
+    padding: 0px 20px 2px 20px;
+    margin: 5%;
+}
+.recipi-1{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 10px;
+}
+.r-item{
+    display: flex;
+    width: 100%;
+    padding: 1px 5px 5px 20px;
+    
+
+}
+.item{
+    width: 30%;
+    box-shadow: 0 6px 20px 0 rgba(39, 37, 37, 0.25);
+    margin: 10px;
+    padding: 2px;
+    border-radius: 15px;
+    display: block;
+
+}
+.item img{
+    width: 100%;
+    padding: 10px;
+}
+.image{
+    padding: 5px 10px;
+    margin: 5px 20px 5px 0px;
+}
+.r-detail{
+    padding: 5px 10px;
+}
+.r-detail p h3{
+    text-align: left;
+h2{
+    font-weight: bold;
+}
