@@ -51,11 +51,14 @@ body{
     margin-top: 90px;
 }
 .quality-food{
-    text-align: center;
+    text-align: justify;
     color: white;
     font-weight: 700;
-    margin: 50px 100px 10px 200px;
+    margin: 50px 60px 10px 400px;
     padding: 50px 20px 10px 200px;
+}
+.quality-food p{
+    line-height: 1.7;
 }
 .quality-food h1{
     color: yellow;
