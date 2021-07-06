@@ -63,7 +63,7 @@ h1 {
     margin: 10px;
     padding: 2px;
     border-radius: 15px;
-    display: block;
+    
 
 }
 .item img{
@@ -79,6 +79,33 @@ h1 {
 }
 .r-detail p h3{
     text-align: left;
-h2{
-    font-weight: bold;
 }
+.data{
+    display: flex;
+    box-shadow: 2px 8px 8px 8px hsl(0, 4%, 82%);
+    margin: 9%;
+    border-radius: 10px;
+    padding: 50px;
+}
+.data-item{
+    margin-left: 125px;
+}
+.data-item h1{
+    color: #000;
+}
+footer{
+    background-color: #000;
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+footer h2{
+    color: rgb(68, 82, 95);
+    font-weight: 900;
+}
+
+
+  
+  
+  
