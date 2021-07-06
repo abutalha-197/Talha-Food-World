@@ -36,11 +36,63 @@ body{
     color: white;
     padding: 0px 10px;
     
-
-
 }
 .food ul li:hover a{
     border-bottom: 2px solid white;
+}
+.order{
+    background-image: url(images/f3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    margin-top: 90px;
+}
+.quality-food{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin: 50px 100px 10px 200px;
+    padding: 50px 20px 10px 200px;
+}
+.quality-food h1{
+    color: yellow;
+    font-weight: 900;
+}
+.o-color{
+    color: yellow;
+    font-weight: 700;
+}
+.btn{
+    display: flex;
+    margin-left: 600px;
+}
+.r-btn{
+    text-decoration: none;
+    border: 2px solid orange;
+    padding: 18px 40px;
+    color: white;
+    font-weight: 700;
+    margin-right: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+.l-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 18px 40px;
+    color: white;
+    font-weight: 700;
+    margin-right: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition-duration: 0.4s;
+}
+
+.l-btn:hover {
+  background-image: linear-gradient(orange, tomato);
+  color: white;
 }
 
 h1 {
@@ -72,7 +124,6 @@ h1 {
     font-weight: 700;
     border-radius: 25px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-
 }
 .half-width p{
     margin-bottom: 40px;
@@ -85,7 +136,6 @@ h1 {
     padding-right:100px ;
     line-height: 2;
 }
-
 .recipie{
     padding: 0px 20px 2px 20px;
     margin: 5%;
@@ -100,8 +150,6 @@ h1 {
     display: flex;
     width: 100%;
     padding: 1px 5px 5px 20px;
-    
-
 }
 .r-detail p{
     line-height: 2;
@@ -113,8 +161,6 @@ h1 {
     margin: 10px;
     padding: 2px;
     border-radius: 15px;
-    
-
 }
 .item img{
     width: 100%;
