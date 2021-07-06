@@ -2,6 +2,47 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
+.navi{
+    background-image: linear-gradient(rgb(22, 2, 54),rgba(22, 1, 45,0.8));
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+#home{
+    margin-top: 90px;
+}
+.logo{
+    
+    padding: 5px 20px;
+    
+}
+.food{
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.food ul li {
+    display: inline;
+
+ }
+
+.food ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    
+
+
+}
+.food ul li:hover a{
+    border-bottom: 2px solid white;
+}
+
 h1 {
     font-size: 50px;
     color: rgb(68, 82, 95);
@@ -40,6 +81,11 @@ h1 {
     background-image: url(images/Frame\ 59.jpg);
     background-repeat: no-repeat;
 }
+.half-width p{
+    padding-right:100px ;
+    line-height: 2;
+}
+
 .recipie{
     padding: 0px 20px 2px 20px;
     margin: 5%;
@@ -56,6 +102,10 @@ h1 {
     padding: 1px 5px 5px 20px;
     
 
+}
+.r-detail p{
+    line-height: 2;
+    padding: 10px;
 }
 .item{
     width: 30%;
@@ -104,6 +154,7 @@ footer h2{
     color: rgb(68, 82, 95);
     font-weight: 900;
 }
+
 
 
   
